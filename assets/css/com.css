@@ -161,8 +161,8 @@ body {
       }
 
       #mockup {
-        max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
-        height: auto; /* Altura automática para manter a proporção da imagem */
+        max-width: 100%;
+        height: auto;
         display: block;
         padding: 10px;
         margin-bottom: 20px;
@@ -170,13 +170,15 @@ body {
     
     /* Adapte o tamanho da imagem para dispositivos móveis usando media queries */
     @media (max-width: 600px) {
+        #mockup img {
+            width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+        }
         #mockup {
-            max-width: 100%; /* Ajuste adicional da largura para dispositivos móveis, se necessário */
-            padding: 5px; /* Adapte o padding para dispositivos móveis conforme necessário */
+            padding: 5px;
         }
     }
     
     
-
+    
 
       
