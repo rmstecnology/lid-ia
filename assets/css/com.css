@@ -228,7 +228,7 @@ body {
       box-sizing: border-box;
       background-color: #009F66; /* Cor de fundo verde */
       color: rgb(255, 255, 255); /* Cor do texto branca */
-      padding: 15px; /* Preenchimento interno de 15 pixels */
+      padding: 20px; /* Preenchimento interno de 20 pixels */
       height: auto; /* Altura automática com base no conteúdo */
       width: 100%; /* Largura de 100% do contêiner pai */
       display: block; /* Exibição como bloco */
@@ -240,7 +240,7 @@ body {
       font: inherit; /* Herda a fonte do elemento pai */
       vertical-align: baseline; /* Alinhamento vertical à linha de base */
       outline: 0; /* Nenhum contorno */
-      line-height: 1.5; /* Altura da linha de 1.5 */
+      line-height: 1.2; /* Altura da linha de 1.5 */
       text-align: center; /* Alinhamento central do texto */
       position: relative !important; /* Posição relativa com importância */
       display: inline-block !important; /* Exibição como bloco em linha com importância */
@@ -254,5 +254,45 @@ body {
       text-decoration: none !important; /* Nenhum sublinhado no texto com importância */
   }
   
+  #Cont02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espaço entre os elementos */
+    
+}
+
+.box2  {
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #009F66; /* Cor de fundo verde */
+    color: #343233; /* Cor do texto branca */
+    padding: 20px; /* Preenchimento interno de 15 pixels */
+    height: auto; /* Altura automática com base no conteúdo */
+    width: 100%; /* Largura de 100% do contêiner pai */
+    display: block; /* Exibição como bloco */
+    margin-bottom: 20px; /* Margem inferior de 20 pixels */
+    text-decoration: none; /* Nenhum sublinhado no texto */
+    -webkit-font-smoothing: antialiased; /* Suavização de fonte no WebKit */
+    margin: 0; /* Margem zero */
+    border: 30; /* Sem borda */
+    font: inherit; /* Herda a fonte do elemento pai */
+    vertical-align: baseline; /* Alinhamento vertical à linha de base */
+    outline: 0; /* Nenhum contorno */
+    line-height: 1.2; /* Altura da linha de 1.5 */
+    text-align: center; /* Alinhamento central do texto */
+    position: relative !important; /* Posição relativa com importância */
+    display: inline-block !important; /* Exibição como bloco em linha com importância */
+    border-style: solid; /* Estilo de borda sólida */
+    width: 100%; /* Largura de 100% do contêiner pai */
+    padding-left: 0 !important; /* Preenchimento esquerdo zero com importância */
+    padding-right: 0 !important; /* Preenchimento direito zero com importância */
+    border-radius: 30px; /* Raio de borda de 30 pixels */
+    background: linear-gradient(to bottom, #F5F5F3 0%, #F5F5F3 100%); /* Gradiente linear de verde */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7); /* Sombra da caixa */
+    text-decoration: none !important; /* Nenhum sublinhado no texto com importância */
+}
  
   
