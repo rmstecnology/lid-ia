@@ -155,7 +155,7 @@ body {
   }
 
     /* Estilos específicos para dispositivos móveis */
-    @media (max-width: 600px) {
+    @media (max-width:600px) {
       #final {
           padding: 10px; /* adicione algum espaço extra para dispositivos móveis, se necessário */}
       }
