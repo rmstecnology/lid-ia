@@ -1,0 +1,182 @@
+@media (max-width: 768px) {
+  .video-player {
+    width: 100%;
+    background: 0 0;
+  }
+  .video-player iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+  }
+  #frame {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+  }
+}
+
+* {
+  font-family: helvetica, arial, sans-serif;
+}
+
+body {
+  font-size: 16px;
+
+}
+
+.bbtn {
+  width: 100%;
+  max-width: 449px;
+}
+
+@media (max-width: 768px) {
+  .video-player {
+    margin-top: 0 !important;
+  }
+}
+
+.a-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      border: 0; 
+      font: inherit; 
+      vertical-align: baseline;
+      color: #2e82bc; 
+      outline: 0; 
+      line-height: 1; 
+      text-align: center; 
+      position:relative!important; display: inline-block!important;
+      border-style: solid; 
+      width: 100%; padding-left: 0!important; padding-right: 0!important; 
+      margin-bottom: 10px; 
+      padding: 11px 22px; border-color: #009F66; border-width: 0px; 
+      border-radius: 3px; 
+      background: linear-gradient(to bottom, #009F66 0%, #009F66 100%); 
+      box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
+      text-decoration: none!important;
+    }
+    .span-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      margin: 0; 
+      border: 0; 
+      font: inherit;
+      vertical-align: baseline;
+      display: block; 
+      position: relative; 
+      z-index: 1; 
+      padding: 0 15px; 
+      white-space: normal; 
+      font-size: 25px;
+      color: #ffffff; 
+      font-family: Oswald; 
+      font-weight: bold; 
+      text-shadow: #000000 0px 1px 0px;
+      text-decoration: none;
+    }
+    .span-btn2 {
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      padding: 0; border: 0;
+      font: inherit; 
+      vertical-align: baseline; 
+      display: block; 
+      position: relative;
+      z-index: 1; 
+      margin: .2em 0 -.5em; 
+      font-size: 15px; 
+      color: #f5e051; 
+      font-family: Cabin; 
+      font-weight: bold; 
+      font-style: italic;
+      text-shadow: #000000 0px 1px 0px;
+    }
+
+    #minhaDiv {
+      max-width: 100%;
+      margin: 0 auto; /* centraliza a div */
+      
+  }
+
+  #minhaDiv img {
+      width: 100%;
+      height: auto;
+      display: block; /* remove espaços em branco extras abaixo da imagem */
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      padding: 10px;
+      margin-bottom: 20px;
+  }
+
+  /* Estilos específicos para dispositivos móveis */
+  @media (max-width: 600px) {
+      #minhaDiv {
+          padding: 10px; /* adicione algum espaço extra para dispositivos móveis, se necessário */}
+      }
+
+    #verde {
+        background-color: #009F66;
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        height: auto;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        text-decoration: none;
+        -webkit-font-smoothing: antialiased;
+        margin: 0;
+        border: 0; 
+        font: inherit; 
+        vertical-align: baseline;
+        outline: 0; 
+        line-height: 1.5; 
+        text-align: center; 
+        position:relative!important; display: inline-block!important;
+        border-style: solid; 
+        width: 100%; padding-left: 0!important; padding-right: 0!important; 
+        border-radius: 3px; 
+        background: linear-gradient(to bottom, #009F66 0%, #009F66 100%); 
+        box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
+        text-decoration: none!important;
+
+    }
+    
+    button {
+      background-color: #004D31; /* Verde escuro */
+      color: #fff; /* Texto branco para contrastar */
+      padding: 10px 20px; /* Adicionando algum preenchimento */
+      font-size: 16px; /* Tamanho da fonte */
+      border: none; /* Removendo a borda padrão */
+      text-decoration: none; /* Removendo sublinhado padrão */
+      cursor: pointer; /* Mudando o cursor para indicar que é clicável */
+  }
+
+    /* Estilos específicos para dispositivos móveis */
+    @media (max-width: 600px) {
+      #final {
+          padding: 10px; /* adicione algum espaço extra para dispositivos móveis, se necessário */}
+      }
+
+      #mockup {
+        max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+        height: auto; /* Altura automática para manter a proporção da imagem */
+        display: block;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    /* Adapte o tamanho da imagem para dispositivos móveis usando media queries */
+    @media (max-width: 600px) {
+        #mockup {
+            max-width: 100%; /* Ajuste adicional da largura para dispositivos móveis, se necessário */
+            padding: 5px; /* Adapte o padding para dispositivos móveis conforme necessário */
+        }
+    }
+    
+    
+
+
+      
