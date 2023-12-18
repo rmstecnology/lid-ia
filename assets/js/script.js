@@ -19,7 +19,7 @@ const relogio = setInterval(function() {
         atualizarRelogio();
     } else {
         clearInterval(relogio);
-        alert("Cronômetro chegou a zero!");
+        alert("Tempo acabou, clique em obter acesso AGORA!");
     }
 }, 1000);
 

@@ -309,3 +309,16 @@ body {
   font-size: 10px; /* Tamanho da fonte menor para minutos e segundos */
 }
 
+#produto {
+  max-width: 100%;
+  margin: 0 auto; /* centraliza a div */
+  
+}
+
+#produto img {
+  width: 100%;
+  height: auto;
+  display: block; /* remove espaços em branco extras abaixo da imagem */
+  padding: 10px;
+  margin-bottom: 20px;
+}
